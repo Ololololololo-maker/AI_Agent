@@ -1,0 +1,52 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[2]:
+
+
+import json
+
+config = {
+    "mode": "development",
+    "models": {
+        "development": {
+            "classifier": {
+                "name": "qwen2.5-7b-instruct-1m",
+                "temperature": 0.8,
+                "max_tokens": 20,
+                "api_type": "local"
+            },
+            "responder": {
+                "name": "qwen2.5-7b-instruct-1m",
+                "temperature": 0.5,  
+                "max_tokens": 350,   
+                "api_type": "local"
+            },
+            "validator": {
+                "name": "qwen2.5-7b-instruct-1m",
+                "temperature": 0.2,  
+                "max_tokens": 50,    
+                "api_type": "local"
+            }
+        }
+    },
+    "api_endpoints": {
+        "local": "http://127.0.0.1:1234/v1"
+    },
+    "api_keys": {
+        "local": "lm-studio"
+    },
+    "settings": {
+        "debug_mode": True,
+        "max_retries": 2,
+        "validation_threshold": 7  
+    }
+}
+
+with open('config.json', 'w', encoding='utf-8') as f:
+    json.dump(config, f, indent=2, ensure_ascii=False)
+
+print("Plik json został utworzony")
+
+
+# In[ ]:
