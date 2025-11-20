@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-Przygotować prototyp asystenta realizującego wybrany przez studenta rodzaj aktywności
+Przygotować prototyp asystenta realizującego wybrany rodzaj aktywności
 -  Przygotować „wiedzę” asystenta składającą się z co najmniej 10 zdań.
 -  Opracować prompt systemowy odporny na „niewłaściwe” pytania
 -  Przetestować:
