@@ -52,6 +52,8 @@ Gdzie $V$ to funkcja walidująca, $q$ to pytanie, $a$ to odpowiedź, a $c$ to ko
 4.  **Uruchomienie**:
     Otwórz plik w Jupyter Notebook / JupyterLab i uruchom wszystkie komórki.
 
+   Kod jest do zastsowania głównie w Jupyter Notebook.
+   
 ## 📊 Przykłady Działania
 
 **Scenariusz 1: Pytanie nieprecyzyjne**
@@ -66,6 +68,7 @@ Gdzie $V$ to funkcja walidująca, $q$ to pytanie, $a$ to odpowiedź, a $c$ to ko
 
 ---
 *Projekt stworzony w celach edukacyjnych, demonstrujący budowę bezpiecznych i kontekstowych agentów AI.*
+
 
 
     
