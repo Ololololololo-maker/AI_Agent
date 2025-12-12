@@ -55,4 +55,4 @@ System rozwiązuje odwieczny dylemat "Pandas czy SQL?":
    ```bash
    pip install openai pandas pydantic ipywidgets matplotlib
 3. Ustaw swój klucz API w kodzie lub zmiennych środowiskowych.
-4. Uruchom Jupyter Notebook i wrzuć tam plik.
+4. Kod jest do zastsowania głównie w Jupyter Notebook.
