@@ -14,3 +14,5 @@ Inteligentny asystent konwersacyjny dla sklepu botanicznego "Zielony Doom" z zaa
 - Interfejs Jupyter Notebook z ipywidgets
  
 **Technologie:** OpenAI SDK, LM Studio, ipywidgets, Qwen2.5-7B
+
+Kod jest do zastsowania głównie w Jupyter Notebook.
