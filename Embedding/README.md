@@ -34,8 +34,10 @@ $$ \text{similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|} $$
 Gdzie $A$ to wektor zapytania, a $B$ to wektor faktu z bazy wiedzy.
 
 ### RAG z Walidacją
-System implementuje pętlę sprzężenia zwrotnego. Zamiast ślepo ufać generacji, system ocenia sam siebie:
-$$ V(q, a, c) \rightarrow [0, 10] $$
+System implementuje pętlę sprzężenia zwrotnego. Zamiast ślepo ufać generacji, system ocenia sam siebie: 
+$$
+V(q, a, c) \rightarrow [0, 10] 
+$
 Gdzie $V$ to funkcja walidująca, $q$ to pytanie, $a$ to odpowiedź, a $c$ to kontekst. Wynik poniżej progu (np. 7/10) odrzuca odpowiedź, zapobiegając halucynacjom.
 
 ## ⚙️ Konfiguracja i Uruchomienie
