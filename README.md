@@ -59,5 +59,5 @@ Projekty stworzone na potrzeby edukacyjne/osobiste/studenckie.
  
 ---
  
-**Autor:** [Ololololololo-maker](https://github.com/Ololololololo-maker)
+**Autor:** [molszewski-ml](https://github.com/molszewski-ml)
 🚀 *Więcej projektów już wkrótce...*
